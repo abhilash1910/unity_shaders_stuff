@@ -14,7 +14,9 @@
     {
         // No culling or depth
         Cull Off ZWrite Off ZTest Always
-
+         
+	//LOD for scene
+	LOD 100
         Pass
         {
             CGPROGRAM
